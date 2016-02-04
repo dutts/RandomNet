@@ -2,7 +2,7 @@
 
 namespace RandomNet
 {
-    public static class Request
+    internal static class Request
     {
         public static WebRequest Create(string uri)
         {

@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace RandomNet
 {
-    public static class WebRequestAsyncExtensions
+    internal static class WebRequestAsyncExtensions
     {
         public static Task<WebResponse> GetReponseAsync(this System.Net.WebRequest request)
         {

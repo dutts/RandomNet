@@ -19,13 +19,13 @@ namespace RandomNet
                 using (var reader = new StreamReader(dataStream))
                 {
                     var responseFromServer = reader.ReadToEnd();
-                    return responseFromServer.Split('\n').Select(int.Parse);
-
+                    var numbers = responseFromServer.Split('\n');
+                    return numbers.Where(n => n.Length > 0).Select(int.Parse);
                 }
             }
-            catch(Exception)
+            catch (Exception e)
             {
-                throw new Exception("Unable to connect to Random.org.");
+                throw new ConnectionException("Unable to connect to Random.org.", e);
             }
         }
 
@@ -44,12 +44,10 @@ namespace RandomNet
                     response.Dispose();
                     return responseFromServer.Split('\n').Select(int.Parse);
                 }
-
-                
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                throw new Exception("Unable to connect to Random.org.");
+                throw new ConnectionException("Unable to connect to Random.org.", e);
             }
         } 
 
