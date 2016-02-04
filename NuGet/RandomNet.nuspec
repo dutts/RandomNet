@@ -12,6 +12,6 @@
     <tags>random number generator random.org</tags>
   </metadata>
   <files>
-     <file src="..\RandomNet\bin\Release\RandomNet.dll"/>
+     <file src="..\RandomNet\bin\Release\RandomNet.dll" target="lib"/>
   </files>
 </package>
