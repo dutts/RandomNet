@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNet", "RandomNet\Rand
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNet.TestConsole", "RandomNet.TestConsole\RandomNet.TestConsole.csproj", "{E4A1828E-DC66-4528-B2D0-0CA0FA9F0541}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{D477AD5B-583B-4F22-93EA-135B17D2C1D6}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet\pack.ps1 = NuGet\pack.ps1
+		NuGet\RandomNet.nuspec = NuGet\RandomNet.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
