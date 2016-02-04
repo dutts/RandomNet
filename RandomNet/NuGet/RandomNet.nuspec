@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>RandomNet</id>
+    <version>$version$</version>
+    <authors>Richard Dutton (@dutts303)</authors>
+    <licenseUrl>https://github.com/dutts/RandomNet/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/dutts/RandomNet</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Lightweight .NET wrapper for the Random.Org HTTP API.</description>
+    <copyright>Copyright 2016 Richard Dutton</copyright>
+    <tags>random number generator random.org</tags>
+  </metadata>
+  <files>
+     <file src="..\RandomNet\bin\Release\RandomNet.dll"/>
+  </files>
+</package>
