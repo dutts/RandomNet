@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNet", "RandomNet\RandomNet.csproj", "{12AD8F2D-6C69-4152-AE32-155DA3053154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNet.TestConsole", "RandomNet.TestConsole\RandomNet.TestConsole.csproj", "{E4A1828E-DC66-4528-B2D0-0CA0FA9F0541}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12AD8F2D-6C69-4152-AE32-155DA3053154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12AD8F2D-6C69-4152-AE32-155DA3053154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12AD8F2D-6C69-4152-AE32-155DA3053154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12AD8F2D-6C69-4152-AE32-155DA3053154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A1828E-DC66-4528-B2D0-0CA0FA9F0541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A1828E-DC66-4528-B2D0-0CA0FA9F0541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A1828E-DC66-4528-B2D0-0CA0FA9F0541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A1828E-DC66-4528-B2D0-0CA0FA9F0541}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
