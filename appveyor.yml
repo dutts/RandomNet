@@ -13,12 +13,17 @@ assembly_info:
 
 configuration: Release
 
+before_build:
+  - appveyor DownloadFile https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
+  - appveyor DownloadFile https://raw.githubusercontent.com/appveyor/ci/master/scripts/nuget-restore.cmd
+  - nuget-restore
+
 build:
   project: RandomNet.sln
 
 test:
   assemblies:
-    - '**\*.tests.dll'
+    - '**\*.Tests.dll'
 
 after_test:
   - ps: .\nuget\pack.ps1
