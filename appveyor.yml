@@ -16,6 +16,10 @@ configuration: Release
 build:
   project: RandomNet.sln
 
+test:
+  assemblies:
+    - '**\*.tests.dll'
+
 after_test:
   - ps: .\nuget\pack.ps1
 
