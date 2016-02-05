@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RandomNet
+namespace RandomNet.Exceptions
 {
     public class ConnectionException : ApplicationException
     {
