@@ -13,6 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{D477AD5B
 		NuGet\RandomNet.nuspec = NuGet\RandomNet.nuspec
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNet.Tests", "RandomNet.Tests\RandomNet.Tests.csproj", "{A9EF7D59-251A-435B-8AAA-A8215B8B0514}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A27C2A6-8772-4CF2-8B5F-317DDEAFF55F}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +34,10 @@ Global
 		{E4A1828E-DC66-4528-B2D0-0CA0FA9F0541}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4A1828E-DC66-4528-B2D0-0CA0FA9F0541}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4A1828E-DC66-4528-B2D0-0CA0FA9F0541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9EF7D59-251A-435B-8AAA-A8215B8B0514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9EF7D59-251A-435B-8AAA-A8215B8B0514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9EF7D59-251A-435B-8AAA-A8215B8B0514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9EF7D59-251A-435B-8AAA-A8215B8B0514}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
