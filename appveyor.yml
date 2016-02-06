@@ -37,4 +37,4 @@ deploy:
   provider: NuGet
   api_key:
     secure: 4MBiCVgduJ+5E6lzASSOmhHUb+XlTEfU56vsO1iC3pp/bJkkdcgii9RARoTzOKax
-  artifact: /.*\.nupkg/
+  artifact: /RandomNet.*\.nupkg/
